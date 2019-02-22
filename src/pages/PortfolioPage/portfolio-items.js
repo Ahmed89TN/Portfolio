@@ -13,7 +13,7 @@ export default [{
       </div>
       <img src={movie} className="movie" alt="me"  />
       <div className='portfolio-item__desc'>
-        A war card game based on movies rating on rottan Tomato.
+        A war card game based on the movie rating system from Rotten Tomatoes.
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-js"></i>
@@ -34,7 +34,7 @@ export default [{
       </div>
       <img src={map} className="map" alt="me"  />
       <div className='portfolio-item__desc'>
-        An app for food card where a vendor can list his business on show his current location
+        An app for food carts where a vendor can list their business and show their current location.
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-node"></i>
@@ -55,7 +55,7 @@ export default [{
       </div>
       <img src={world} className="world" alt="me"  />
       <div className='portfolio-item__desc'>
-        A social networking app to meet people from all over the world and learn from them about thier culture.
+        A social networking app to meet people from all over the world and learn about their culture.
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-node"></i>
@@ -76,7 +76,7 @@ export default [{
       </div>
       <img src={click} className="click" alt="me"  />
       <div className='portfolio-item__desc'>
-         A game based on memory 
+         A game based on memory. 
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-react"></i>
@@ -97,7 +97,7 @@ export default [{
       </div>
       <img src={stellium} className="stellium" alt="me"  />
       <div className='portfolio-item__desc'>
-         A custom made website 
+         A custom made website for an ad agency.
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-html5"></i>
