@@ -9,6 +9,7 @@ const Footer = (props, context) => {
     <footer>
       <div className="content-grid">
         <div style={{ color: textPrimary }}><a href="https://github.com/Ahmed89TN" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Ahmed Ben Othmen</a></div>
+        <div style={{ color: textPrimary }}>Ahmedbenothmen045@gmail.com</div>
       </div>
     </footer>
   );
