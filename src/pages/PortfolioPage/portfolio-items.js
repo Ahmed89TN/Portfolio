@@ -3,8 +3,9 @@ import movie from "./movie.PNG";
 import map from "./map.PNG";
 import world from "./world.PNG";
 import click from "./click.PNG";
+import stellium from "./stellium.PNG"
 export default [{
-  name: 'Lisence plate OCR',
+  name: 'movie war',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
@@ -25,7 +26,7 @@ export default [{
     </div>
   )
 }, {
-  name: 'graphql chat',
+  name: 'munchies map',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
@@ -46,7 +47,7 @@ export default [{
     </div>
   )
 }, {
-  name: 'Javascript annotable maps',
+  name: 'world view',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
@@ -67,7 +68,7 @@ export default [{
     </div>
   )
 }, {
-  name: 'Portfolio',
+  name: 'clicky game',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
@@ -84,6 +85,26 @@ export default [{
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ahmed89TN/clicky-game">Github</a>
         <a target="_blank" rel="noopener noreferrer" href="https://ahmed89tn.github.io/clicky-game/">Demo</a>
+      </div>
+    </div>
+  )
+}, {
+  name: 'Stellium relation',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Stellium Relation
+      </div>
+      <img src={stellium} className="stellium" alt="me"  />
+      <div className='portfolio-item__desc'>
+         A custom made website 
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3-alt"></i>
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="http://stelliumrelations.com/index.html">Live</a>
       </div>
     </div>
   )
