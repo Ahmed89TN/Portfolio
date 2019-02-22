@@ -40,10 +40,12 @@
         padding: 0.5rem 0;
         margin-right: 50px;
       }
-      $break-small: 320px;
+    
       .col{
-        
         width: 46%;
+        @include breakpoint-small-down {
+         width: 110%;
+        }
       }
       img{
         border: 4px solid #da784d;
@@ -52,6 +54,14 @@
         margin-left: 725px;
         max-width: 46%;
         height: auto;
+        @include breakpoint-small-down {
+          margin-top: 30px;
+        margin-left: 0px;
+        max-width: 100%;
+        }
+      }
+      .row{
+        margin-top: 140px;
       }
     }
   }
